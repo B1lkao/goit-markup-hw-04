@@ -112,6 +112,14 @@ img {
 
 .main-decision {
     background-color: #2F303A;
+    background-image: 
+    linear-gradient(
+    rgba(47, 48, 58, 0.4), 
+    rgba(47, 48, 58, 0.4)), 
+    url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1600px;
     padding: 200px 0;
 }
 .decision-title {
@@ -259,10 +267,33 @@ img {
     text-align: center;
     letter-spacing: 0.03em;
     color: #757575;
+    margin-bottom: 16px;
 }
 .participant-participant-job {
     padding-top: 30px;
     padding-bottom: 30px;
+}
+.participant-soc-list {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+.par-item {
+    width: 44px;
+    height: 44px;
+    margin-left: 10px;
+}
+.par-item:first-child {
+    margin-left: 0;
+}
+.par-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: tomato;
 }
 .footer {
     background-color: #2F303A;
@@ -424,6 +455,7 @@ img {
 .address-list,
 .button-list,
 .categories-list,
-.second-categories-list {
+.second-categories-list,
+.participant-soc-list {
     list-style-type: none;
 }
