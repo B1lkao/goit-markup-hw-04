@@ -107,9 +107,11 @@ img {
     color: #757575;
 }
 .mail-icon {
+    margin-right: 10px;
     fill: currentColor;
 }
 .phone-icon {
+    margin-right: 10px;
     fill: currentColor;
 }
 .mail:visited,
@@ -377,6 +379,10 @@ img {
     padding-top: 60px;
     padding-bottom: 60px;
 }
+.footer-content {
+    display: flex;
+    align-items: baseline;
+}
 .footer-logo {
     font-family: 'Raleway';
     font-style: normal;
@@ -391,6 +397,9 @@ img {
     display: block;
     margin-bottom: 20px;
 }
+.soc-footer {
+    margin-left: 70px;
+}
 .soc-title {
     font-weight: 700;
     font-size: 14px;
@@ -398,6 +407,7 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #FFFFFF;
+    margin-bottom: 20px;
 }
 .social-link {
     display: flex;
@@ -407,6 +417,10 @@ img {
     align-items: center;
     color: #afb1b8;
     border-radius: 50%;
+    margin-right: 10px;
+}
+.soc-footer-list {
+    display: flex;
 }
 .soc-footer .social-link {
     background: rgba(255, 255, 255, 0.1);
